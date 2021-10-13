@@ -4,6 +4,8 @@ It's News app that using the NewsAPI.
 
 
 # Features
+* List News
+* Show News Detail
 * Add Favorite
 * Delete Favorite
 * Clear Favorites
