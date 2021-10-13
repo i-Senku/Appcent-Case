@@ -47,6 +47,4 @@ final class FavoriteViewModel : FavoriteViewModelProtocol {
             delegate?.reloadTableView()
         }
     }
-    
-    
 }
