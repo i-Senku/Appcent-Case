@@ -9,7 +9,7 @@ import Foundation
 
 final class NewsDetailViewModel : NewsDetailViewModelProtocol {
     
-    var delegate: NewsDetailViewModelOutput?
+    weak var delegate: NewsDetailViewModelOutput?
     var article: Article?
     var favoriteRepository: FavoriteRepositoryProtocol
     var isAvailable: Bool = false

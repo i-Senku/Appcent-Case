@@ -8,7 +8,7 @@
 import Foundation
 
 final class NewsListViewModel : NewsListViewModelProtocol {
-    var delegate: NewsListViewModelOutput?
+    weak var delegate: NewsListViewModelOutput?
     var newsRepository: NewsRepositoryProtocol
     var newsList: [Article]?
     

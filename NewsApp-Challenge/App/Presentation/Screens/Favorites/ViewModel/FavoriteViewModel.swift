@@ -8,7 +8,7 @@
 import Foundation
 
 final class FavoriteViewModel : FavoriteViewModelProtocol {
-    var delegate: FavoriteViewModelOutput?
+    weak var delegate: FavoriteViewModelOutput?
     
     var favoriteRepository: FavoriteRepositoryProtocol
     
