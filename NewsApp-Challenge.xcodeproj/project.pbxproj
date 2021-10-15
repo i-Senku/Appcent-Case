@@ -57,14 +57,14 @@
 		FEBAA4342715ED4200E18BF3 /* NewsWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4332715ED4200E18BF3 /* NewsWebVC.swift */; };
 		FEBAA4362715ED9700E18BF3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBAA4352715ED9700E18BF3 /* WebKit.framework */; };
 		FEBAA4382715F03300E18BF3 /* NewsWebViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4372715F03300E18BF3 /* NewsWebViewBuilder.swift */; };
-		FEBAA43C2715FC0C00E18BF3 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA43B2715FC0C00E18BF3 /* RealmHelper.swift */; };
 		FEBAA4412715FD0C00E18BF3 /* FavoriteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4402715FD0C00E18BF3 /* FavoriteDataSource.swift */; };
 		FEBAA4432715FD1500E18BF3 /* FavoriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4422715FD1500E18BF3 /* FavoriteService.swift */; };
-		FEBAA4532716385100E18BF3 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4522716385100E18BF3 /* Favorites.swift */; };
 		FEBAA4562716478500E18BF3 /* FavoriteRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4552716478500E18BF3 /* FavoriteRepositoryProtocol.swift */; };
 		FEBAA4582716478C00E18BF3 /* FavoriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA4572716478C00E18BF3 /* FavoriteRepository.swift */; };
 		FEBAA45A271647C600E18BF3 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAA459271647C600E18BF3 /* AppContainer.swift */; };
 		FECA17DC27171F5D0022D75A /* NewsApp_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA17DB27171F5D0022D75A /* NewsApp_Test.swift */; };
+		FEDCD22C271978DB00789B95 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD22B271978DB00789B95 /* Favorite.swift */; };
+		FEDCD22F2719794000789B95 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD22E2719794000789B95 /* RealmHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,16 +132,16 @@
 		FEBAA4332715ED4200E18BF3 /* NewsWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebVC.swift; sourceTree = "<group>"; };
 		FEBAA4352715ED9700E18BF3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FEBAA4372715F03300E18BF3 /* NewsWebViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebViewBuilder.swift; sourceTree = "<group>"; };
-		FEBAA43B2715FC0C00E18BF3 /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		FEBAA4402715FD0C00E18BF3 /* FavoriteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDataSource.swift; sourceTree = "<group>"; };
 		FEBAA4422715FD1500E18BF3 /* FavoriteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteService.swift; sourceTree = "<group>"; };
-		FEBAA4522716385100E18BF3 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Favorites.swift; path = ../../../../../../MusicPub/MusicPub/App/Data/Local/Models/Favorites.swift; sourceTree = "<group>"; };
 		FEBAA4552716478500E18BF3 /* FavoriteRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRepositoryProtocol.swift; sourceTree = "<group>"; };
 		FEBAA4572716478C00E18BF3 /* FavoriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRepository.swift; sourceTree = "<group>"; };
 		FEBAA459271647C600E18BF3 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		FECA17D927171F5D0022D75A /* NewsApp-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsApp-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECA17DB27171F5D0022D75A /* NewsApp_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp_Test.swift; sourceTree = "<group>"; };
 		FECA17DD27171F5D0022D75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDCD22B271978DB00789B95 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		FEDCD22E2719794000789B95 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,7 +341,7 @@
 		FEABF6B727143BC000C75CA2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FEBAA4392715FC0C00E18BF3 /* Helpers */,
+				FEDCD22D2719793900789B95 /* Helper */,
 				FE5210E22714CB6000E25953 /* Network */,
 				FEABF6CB27143C4300C75CA2 /* Constants */,
 				FEABF6BF27143C4300C75CA2 /* Enums */,
@@ -551,23 +551,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		FEBAA4392715FC0C00E18BF3 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				FEBAA43A2715FC0C00E18BF3 /* RealmHelper */,
-			);
-			name = Helpers;
-			path = ../../../MusicPub/MusicPub/Core/Helpers;
-			sourceTree = "<group>";
-		};
-		FEBAA43A2715FC0C00E18BF3 /* RealmHelper */ = {
-			isa = PBXGroup;
-			children = (
-				FEBAA43B2715FC0C00E18BF3 /* RealmHelper.swift */,
-			);
-			path = RealmHelper;
-			sourceTree = "<group>";
-		};
 		FEBAA43F2715FCF200E18BF3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -580,7 +563,7 @@
 		FEBAA4512716384A00E18BF3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FEBAA4522716385100E18BF3 /* Favorites.swift */,
+				FEDCD22B271978DB00789B95 /* Favorite.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -601,6 +584,14 @@
 				FECA17DD27171F5D0022D75A /* Info.plist */,
 			);
 			path = "NewsApp-Test";
+			sourceTree = "<group>";
+		};
+		FEDCD22D2719793900789B95 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FEDCD22E2719794000789B95 /* RealmHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -760,9 +751,11 @@
 				FEABF69C27143AEA00C75CA2 /* AppDelegate.swift in Sources */,
 				FE5E468527155BA700BAFD40 /* NewsDetailBuilder.swift in Sources */,
 				FEABF6F9271452D400C75CA2 /* NewsListViewModel.swift in Sources */,
+				FEDCD22C271978DB00789B95 /* Favorite.swift in Sources */,
 				FEABF6CF27143C4300C75CA2 /* TableView+Ext.swift in Sources */,
 				FE5210FA2714D54D00E25953 /* NetworkError+Ext.swift in Sources */,
 				FE5E468D2715A24300BAFD40 /* NewsDetailViewModel.swift in Sources */,
+				FEDCD22F2719794000789B95 /* RealmHelper.swift in Sources */,
 				FE5210F62714D3F100E25953 /* NewsRepositoryProtocol.swift in Sources */,
 				FE5210EE2714CD0900E25953 /* NewsServiceDataSource.swift in Sources */,
 				FE9F19162716D6060087D083 /* FavoriteTableView.swift in Sources */,
@@ -783,7 +776,6 @@
 				FEABF6F727144CD500C75CA2 /* NewsListTableView.swift in Sources */,
 				FE5E468B2715A1A700BAFD40 /* NewsDetailContracts.swift in Sources */,
 				FE9F19142716D4D00087D083 /* FavoriteViewModel.swift in Sources */,
-				FEBAA43C2715FC0C00E18BF3 /* RealmHelper.swift in Sources */,
 				FEABF6EB2714453A00C75CA2 /* AppBuilder.swift in Sources */,
 				FEBAA4582716478C00E18BF3 /* FavoriteRepository.swift in Sources */,
 				FE5210FC2714E32300E25953 /* NewsSearchBar.swift in Sources */,
@@ -795,7 +787,6 @@
 				FE5E468327155B7300BAFD40 /* NewsDetailVC.swift in Sources */,
 				FEABF6ED271445A200C75CA2 /* NewsListVC.swift in Sources */,
 				FE5210EC2714CB6000E25953 /* NetworkError.swift in Sources */,
-				FEBAA4532716385100E18BF3 /* Favorites.swift in Sources */,
 				FEABF69E27143AEA00C75CA2 /* SceneDelegate.swift in Sources */,
 				FE5210E12714CA9000E25953 /* NewsAPI.swift in Sources */,
 				FE9F19102716D2F10087D083 /* FavoritesBuilder.swift in Sources */,
